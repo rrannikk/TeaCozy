@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica";
+  background-color: black;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/* Header logo and navigation */
+
+header {
+  position: fixed;
+  z-index: 1;
+  height: 69px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  margin-top: 0;
+}
+
+img {
+  height: 50px;
+}
+
+nav {
+  margin-right: 10px;
+}
+
+a {
+  color: seashell;
+  opacity: 0.9;
+  padding: 10px;
+}
+nav a:hover {
+  background-color: #555;
+}
+
+/* main container */
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  top: 69px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+h2,
+h4 {
+  padding: 10px;
+  margin: 0;
+}
+/* Mission section */
+
+#mission {
+  background-image: url(../images/img-mission-background.jpg);
+  height: 700px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.textbox-mission {
+  background-color: black;
+  width: 100%;
+}
+/* Featured Tea section */
+
+#tea {
+  width: 1000px;
+  margin: 60px auto;
+}
+.selection img {
+  width: 300px;
+  height: 200px;
+}
+.selection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.selection-box {
+  display: block;
+  margin: 0 15px;
+}
+/* Locations section */
+
+#locations {
+  background-image: url(../images/img-locations-background.jpg);
+  height: 500px;
+  width: 100%;
+  padding: 40px 0;
+}
+.shops {
+  display: flex;
+  justify-content: center
+}
+.shop-box {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  margin: 15px 20px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.shop-box {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  margin: 15px 20px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.shop-box h4 {
+    font-weight: normal;
+}
+/* Footer */
+
+footer {
+  position: relative;
+  top: 70px;
+}
+
+#copyright {
+  text-align: left;
+  margin-left: 15px;
+}
